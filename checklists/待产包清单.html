@@ -1,0 +1,113 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>待产包清单</title>
+  <style>
+    :root { --ink:#5c3317; --line:#e6d5c3; }
+    * { box-sizing: border-box; }
+    body {
+      margin: 0; padding: 24px;
+      font-family: "PingFang SC", "Microsoft YaHei", sans-serif;
+      color: #2b2118; background: #faf6f1;
+    }
+    .sheet {
+      max-width: 1100px; margin: 0 auto; background: #fff;
+      border: 1px solid var(--line); padding: 28px 24px 36px;
+    }
+    h1 { margin: 0 0 8px; text-align: center; color: var(--ink); font-size: 24px; }
+    .meta { text-align: center; color: #6b5344; font-size: 14px; line-height: 1.7; margin: 0; }
+    h2 { color: var(--ink); font-size: 18px; margin: 28px 0 10px; border-left: 4px solid #c4783a; padding-left: 10px; }
+    table { width: 100%; border-collapse: collapse; font-size: 13px; }
+    th, td { border: 1px solid var(--line); padding: 8px 10px; vertical-align: top; }
+    th { background: #7a4e2d; color: #fff; font-weight: 600; white-space: nowrap; }
+    td.check { text-align: center; font-size: 18px; width: 64px; }
+    tr.id td:first-child { background: #fde8d0; }
+    tr.mom td:first-child { background: #f8d7da; }
+    tr.baby td:first-child { background: #d4edda; }
+    tr.family td:first-child { background: #d6eaf8; }
+    tr.no td:first-child { background: #f5c6cb; }
+    tr.home td:first-child { background: #fff3cd; }
+    .hint { margin-top: 20px; font-size: 13px; color: #6b5344; }
+    @media print {
+      body { background: #fff; padding: 0; }
+      .sheet { border: none; padding: 0; max-width: none; }
+      h2 { break-after: avoid; }
+      table { break-inside: auto; }
+      tr { break-inside: avoid; }
+    }
+  </style>
+</head>
+<body>
+  <div class="sheet">
+    <h1>待产包清单（可发给家人一起勾选）</h1>
+    <p class="meta">目标医院：长沙市中心医院（南华大学附属长沙中心医院）<br>地址：长沙市雨花区韶山南路 161 号（铁道学院对面）<br>建议完成：孕 36 周前封箱，放门口或后备箱（夜间也能 5 分钟拿走）<br>原则：医院只带证件 + 几天内用得上的；家里再备回来一个月要用的。医疗决策以产科当面医嘱为准。</p>
+    <h2>一、入院待产包</h2>
+    <table>
+<thead><tr><th>分类</th><th>物品</th><th>建议数量</th><th>谁准备</th><th>何时带/何时买</th><th>是否已备</th><th>备注</th></tr></thead><tbody>
+<tr class="id"><td>证件袋</td><td>产妇身份证（原件）</td><td>1</td><td>产妇/家属</td><td>入院当天随身</td><td class="check">☐</td><td>复印件另夹一份</td></tr>
+<tr class="id"><td>证件袋</td><td>配偶身份证（原件）</td><td>1</td><td>家属</td><td>入院当天随身</td><td class="check">☐</td><td>办出生证明、落户也会用</td></tr>
+<tr class="id"><td>证件袋</td><td>医保电子凭证 + 社保卡</td><td>已登录即可</td><td>产妇</td><td>入院当天随身</td><td class="check">☐</td><td>「湘医保」提前登录，别只靠现场网络</td></tr>
+<tr class="id"><td>证件袋</td><td>医院诊疗卡 / 就诊卡</td><td>1</td><td>产妇</td><td>入院当天随身</td><td class="check">☐</td><td>有卡就带，没有用身份证办理</td></tr>
+<tr class="id"><td>证件袋</td><td>产检手册和全部报告</td><td>全套</td><td>产妇</td><td>入院当天随身</td><td class="check">☐</td><td>含 B 超、化验、糖耐、胎监</td></tr>
+<tr class="id"><td>证件袋</td><td>住院证</td><td>1</td><td>产妇</td><td>医生开了立刻放进袋</td><td class="check">☐</td><td>没住院证不能办住院</td></tr>
+<tr class="id"><td>证件袋</td><td>结婚证、户口本</td><td>原件</td><td>家属</td><td>办证时再送，不必整天放病房</td><td class="check">☐</td><td>出生证明、落户常用</td></tr>
+<tr class="id"><td>证件袋</td><td>银行卡 + 少量现金</td><td>2 张卡 / 少量现金</td><td>家属</td><td>入院当天</td><td class="check">☐</td><td>预交款常见 2000–3000 元，以窗口为准</td></tr>
+<tr class="id"><td>证件袋</td><td>血型 / 过敏 / 紧急联系人纸条</td><td>1 张</td><td>家属</td><td>入院当天随身</td><td class="check">☐</td><td>写预产期、血型、过敏史、谁接电话</td></tr>
+<tr class="mom"><td>产妇·衣服</td><td>待产裙或哺乳衣（前开扣）</td><td>2–3 套</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>住院几天换洗用</td></tr>
+<tr class="mom"><td>产妇·衣服</td><td>纯棉内裤（一次性或普通）</td><td>8–10 条</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>用量比平时月经期多</td></tr>
+<tr class="mom"><td>产妇·衣服</td><td>防滑拖鞋 + 袜子</td><td>各 1–2</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>医院地面常湿</td></tr>
+<tr class="mom"><td>产妇·衣服</td><td>薄外套</td><td>1 件</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>产房/病房空调可能凉；秋冬再加一件</td></tr>
+<tr class="mom"><td>产妇·衣服</td><td>出院换洗衣物</td><td>1 套</td><td>家属</td><td>出院当天送来即可</td><td class="check">☐</td><td>不必提前堆在病房</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>产妇卫生巾（日用+夜用）</td><td>够 3–5 天</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>量要比平时月经多</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>产褥垫 / 看护垫</td><td>8–10 张</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>垫床用</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>防溢乳垫 + 乳头舒缓膏</td><td>少量</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>住院开奶用，不必屯一大箱</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>湿巾、纸巾、垃圾袋</td><td>各 1 包</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>病房垃圾自己收比较方便</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>唇膏、免洗洗手液</td><td>各 1</td><td>产妇</td><td>入院小件</td><td class="check">☐</td><td>病房偏干，洗手不便时用</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>会阴冲洗器或挤瓶</td><td>1</td><td>家属</td><td>顺产后可再补</td><td class="check">☐</td><td>按护士习惯，入院后再买也行</td></tr>
+<tr class="mom"><td>产妇·护理</td><td>腹带</td><td>1</td><td>家属</td><td>剖宫产再备</td><td class="check">☐</td><td>是否用、松紧听医生护士，不要自己勒太紧</td></tr>
+<tr class="mom"><td>产妇·洗漱用品</td><td>牙刷牙膏、毛巾、洗面奶、梳子</td><td>个人用量</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>护肤品少量即可</td></tr>
+<tr class="mom"><td>产妇·洗漱用品</td><td>带盖杯 + 吸管</td><td>1 套</td><td>产妇</td><td>36 周前备好</td><td class="check">☐</td><td>剖宫产早期喝水方便</td></tr>
+<tr class="mom"><td>产妇·洗漱用品</td><td>充电器、充电宝、耳机</td><td>各 1</td><td>产妇/家属</td><td>入院当天</td><td class="check">☐</td><td>充电宝满电</td></tr>
+<tr class="mom"><td>产妇·洗漱用品</td><td>框架眼镜</td><td>1</td><td>产妇</td><td>如平时戴隐形则改框架</td><td class="check">☐</td><td>住院少戴隐形更省事</td></tr>
+<tr class="mom"><td>产妇·吃的</td><td>少量零食和自己习惯的水</td><td>1 小袋</td><td>家属</td><td>入院当天</td><td class="check">☐</td><td>苏打饼干、独立包装坚果即可；医院有食堂</td></tr>
+<tr class="baby"><td>宝宝（3–5天）</td><td>连体衣 / 和尚服（纯棉无骨缝）</td><td>3–5 件</td><td>家属</td><td>36 周前备好</td><td class="check">☐</td><td>医院通常有部分被服，仍建议自备</td></tr>
+<tr class="baby"><td>宝宝（3–5天）</td><td>包被 / 包巾</td><td>2 条</td><td>家属</td><td>36 周前备好</td><td class="check">☐</td><td>秋冬加厚一床，病房仍可能开空调</td></tr>
+<tr class="baby"><td>宝宝（3–5天）</td><td>帽子、袜子、护手</td><td>各 1–2</td><td>家属</td><td>36 周前备好</td><td class="check">☐</td><td></td></tr>
+<tr class="baby"><td>宝宝（3–5天）</td><td>纸尿裤（新生儿码）</td><td>1 小包</td><td>家属</td><td>32–34 周买</td><td class="check">☐</td><td>先买小包装，出院按实际用量补</td></tr>
+<tr class="baby"><td>宝宝（3–5天）</td><td>隔尿垫</td><td>若干</td><td>家属</td><td>36 周前备好</td><td class="check">☐</td><td></td></tr>
+<tr class="baby"><td>宝宝（3–5天）</td><td>湿巾（无酒精无香精）、柔纸巾</td><td>各 1 包</td><td>家属</td><td>36 周前备好</td><td class="check">☐</td><td>棉签按护士指导用，不要自行挖鼻耳</td></tr>
+<tr class="family"><td>家属陪护</td><td>家属身份证</td><td>1</td><td>家属</td><td>入院当天</td><td class="check">☐</td><td>办陪护证</td></tr>
+<tr class="family"><td>家属陪护</td><td>换洗衣物、拖鞋、洗漱</td><td>1–2 天用量</td><td>家属</td><td>入院当天</td><td class="check">☐</td><td>夜间薄毯或外套一件</td></tr>
+<tr class="family"><td>家属陪护</td><td>充电宝、水杯</td><td>各 1</td><td>家属</td><td>入院当天</td><td class="check">☐</td><td></td></tr>
+<tr class="family"><td>家属陪护</td><td>食堂/外卖支付方式</td><td>已开通</td><td>家属</td><td>入院前确认</td><td class="check">☐</td><td>微信/支付宝/银行卡能付即可</td></tr>
+<tr class="family"><td>家属陪护</td><td>陪护证</td><td>入院后办理</td><td>家属</td><td>办好随身带</td><td class="check">☐</td><td>进产房着装以护士要求为准</td></tr>
+</tbody></table>
+    <h2>二、不要带进病房</h2>
+    <table>
+<thead><tr><th>分类</th><th>物品</th><th>建议数量</th><th>谁准备</th><th>何时带/何时买</th><th>是否已备</th><th>备注</th></tr></thead><tbody>
+<tr class="no"><td>不要带</td><td>热得快、电煮锅、电炉</td><td>—</td><td>全员</td><td>全程不要</td><td class="check">☐</td><td>住院须知：病房不用明火和电热器具</td></tr>
+<tr class="no"><td>不要带</td><td>大量奶粉、奶瓶</td><td>—</td><td>全员</td><td>先不带</td><td class="check">☐</td><td>先按医院喂养指导；需要配方奶再按医嘱买</td></tr>
+<tr class="no"><td>不要带</td><td>贵重首饰、大量现金</td><td>—</td><td>全员</td><td>全程不要</td><td class="check">☐</td><td>贵重物品自己保管，病房地方小也不安全</td></tr>
+<tr class="no"><td>不要带</td><td>过多换季衣物、一年用量纸尿裤</td><td>—</td><td>全员</td><td>不要一次搬进医院</td><td class="check">☐</td><td>只带几天用量，家里再备一个月的</td></tr>
+</tbody></table>
+    <h2>三、家里准备（不必搬进医院）</h2>
+    <table>
+<thead><tr><th>分类</th><th>物品</th><th>建议数量</th><th>谁准备</th><th>何时带/何时买</th><th>是否已备</th><th>备注</th></tr></thead><tbody>
+<tr class="home"><td>家里·产妇</td><td>产褥期卫生巾、内裤</td><td>够回家后一周再补</td><td>家属</td><td>出院前家里备好</td><td class="check">☐</td><td>不必全部搬进医院</td></tr>
+<tr class="home"><td>家里·产妇</td><td>哺乳内衣</td><td>3–4 件</td><td>产妇</td><td>36 周前后</td><td class="check">☐</td><td></td></tr>
+<tr class="home"><td>家里·产妇</td><td>吸奶器</td><td>按需</td><td>产妇</td><td>住院后再决定买/租</td><td class="check">☐</td><td>不是人人必须，避免闲置</td></tr>
+<tr class="home"><td>家里·产妇</td><td>收腹带、盆底训练用品</td><td>按需</td><td>产妇</td><td>42 天复查后再听康复意见</td><td class="check">☐</td><td>不要自行勒太紧</td></tr>
+<tr class="baby"><td>家里·婴儿</td><td>婴儿床或安全同房睡方案</td><td>1</td><td>家属</td><td>出院前</td><td class="check">☐</td><td>不建议同被捂睡</td></tr>
+<tr class="baby"><td>家里·婴儿</td><td>床单、睡袋或包被</td><td>够换洗</td><td>家属</td><td>出院前</td><td class="check">☐</td><td>室温大约 24–26℃ 作参考</td></tr>
+<tr class="baby"><td>家里·婴儿</td><td>夜灯、尿布台或床边整理筐、垃圾桶</td><td>各 1</td><td>家属</td><td>出院前</td><td class="check">☐</td><td></td></tr>
+<tr class="baby"><td>家里·婴儿</td><td>洗澡盆、浴巾、水温计</td><td>1 套</td><td>家属</td><td>出院前</td><td class="check">☐</td><td></td></tr>
+<tr class="baby"><td>家里·婴儿</td><td>婴儿指甲剪、电子体温计</td><td>各 1</td><td>家属</td><td>出院前</td><td class="check">☐</td><td></td></tr>
+<tr class="home"><td>家里·安全</td><td>窗户限位、电线收纳、热水瓶放高处</td><td>按家情况</td><td>家属</td><td>出院前</td><td class="check">☐</td><td>满月前减少无关探视，洗手再抱</td></tr>
+<tr class="home"><td>家里·小药箱</td><td>体温计、棉签、无菌纱布</td><td>家用少量</td><td>家属</td><td>出院前</td><td class="check">☐</td><td>不替代就医；不要自行给新生儿用药</td></tr>
+</tbody></table>
+    <p class="hint">发给别人时：直接发本 HTML，或用浏览器打开后「打印 → 另存为 PDF」。Excel 版见同目录「待产包清单.xlsx」。勾选列打印后可用笔勾。</p>
+  </div>
+</body>
+</html>
