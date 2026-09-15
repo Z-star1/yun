@@ -11,7 +11,7 @@
 
 1. 先打开 [`templates/家庭档案.md`](templates/家庭档案.md)，把预产期、产检医生、医保类型、紧急联系人填上。
 2. 按 [`01-孕30周起时间线.md`](01-孕30周起时间线.md) 往下走，每周只盯当前这一段。
-3. 待产包直接用 [`checklists/待产包清单.md`](checklists/待产包清单.md) 勾选。
+3. 待产包用 [`checklists/待产包清单.md`](checklists/待产包清单.md) 看表格；发给家人用 [`checklists/待产包清单.xlsx`](checklists/待产包清单.xlsx) 或 [`checklists/待产包清单.html`](checklists/待产包清单.html)。
 4. 准备母乳喂养看 [`08-母乳喂养准备.md`](08-母乳喂养准备.md) 和 [`checklists/母乳喂养清单.md`](checklists/母乳喂养清单.md)。
 5. 优先顺产看 [`09-优先顺产计划.md`](09-优先顺产计划.md) 和 [`checklists/顺产准备清单.md`](checklists/顺产准备清单.md)。
 6. 证件、报销、津贴看 [`06-证件手续与报销.md`](06-证件手续与报销.md)。
@@ -31,7 +31,7 @@
 | [07-家庭分工与应急](07-家庭分工与应急.md) | 家人分工、夜间应急、去医院路线 |
 | [08-母乳喂养准备](08-母乳喂养准备.md) | 开奶、含接、买什么、住院怎么开口 |
 | [09-优先顺产计划](09-优先顺产计划.md) | 试产条件、产检怎么问、何时改剖宫产 |
-| [checklists/待产包清单](checklists/待产包清单.md) | 可打印勾选的待产包 |
+| [checklists/待产包清单](checklists/待产包清单.md) | 待产包表格；另有 Excel / HTML 可直接转发 |
 | [checklists/母乳喂养清单](checklists/母乳喂养清单.md) | 母乳喂养物品和住院要点 |
 | [checklists/顺产准备清单](checklists/顺产准备清单.md) | 试产口径和入院三句话 |
 | [checklists/证件材料清单](checklists/证件材料清单.md) | 入院和产后办证材料 |
